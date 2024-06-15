@@ -1,0 +1,69 @@
+/*导入字体和footer样式*/
+@import "footer.css";
+
+/*body*/
+html{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FAFCFF;
+    font-family: serif;
+}
+
+/*header*/
+header{
+    width: 100%;
+    height: 200px;
+    background:url("../img/introimg.jpg") no-repeat center bottom;
+    background-size:cover;
+}
+span{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    font-size: 25pt;
+    font-weight: bold;
+}
+
+/*content*/
+.content{
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+#title1{
+    font-size: 18pt;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+.word{
+    margin-left: 250px;
+    margin-right: 250px;
+    font-size: 14pt;
+    font-weight: lighter;
+    text-indent: 3em;
+}
+
+#title2{
+    font-size: 18pt;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#text2{
+    width: 100%;
+    margin-bottom: 50px;
+}
+#box{
+    width: 100%;
+    height: 448px;
+    background:url("../img/introbox.png") no-repeat center bottom;
+    background-size:cover;
+}
+
